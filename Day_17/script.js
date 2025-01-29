@@ -1,0 +1,50 @@
+let Employee_Details ={
+    emp_id:1,
+    emp_name:"Pranav",
+    emp_company:"Google",
+    emp_salary:20000,
+    emp_address:{
+        city:"Hyderabad",
+        state:"Telangana",
+        pincode:500072,
+    },
+    emp_id:1,
+    emp_name:"Pranav",
+    emp_company:"Google",
+    emp_salary:20000,
+    emp_address:{
+        city:"Hyderabad",
+        state:"Telangana",
+        pincode:500072,
+    },
+    emp_id:1,
+    emp_name:"Pranav",
+    emp_company:"Google",
+    emp_salary:20000,
+    emp_address:{
+        city:"Hyderabad",
+        state:"Telangana",
+        pincode:500072,
+    },
+    emp_id:1,
+    emp_name:"Pranav",
+    emp_company:"Google",
+    emp_salary:20000,
+    emp_address:{
+        city:"Hyderabad",
+        state:"Telangana",
+        pincode:500072,
+    },
+    emp_id:1,
+    emp_name:"Pranav",
+    emp_company:"Google",
+    emp_salary:20000,
+    emp_address:{
+        city:"Hyderabad",
+        state:"Telangana",
+        pincode:500072,
+    },
+
+
+}
+Employee_Details.map
