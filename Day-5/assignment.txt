@@ -1,0 +1,10 @@
+factorical of a given numbers.
+12-1,2,3,4,12
+code:
+
+let a = Number(prompt("Enter a Number:"))
+for(let i=1;i<=a;i++){
+    if(a%i===0){
+        console.log(i);
+    }
+}

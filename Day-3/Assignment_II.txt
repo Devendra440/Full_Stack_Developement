@@ -1,0 +1,103 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+A data type in programming is used to define the type of data a variable can hold. It specifies what kind of value the variable can store, such as numbers, text, or more complex types.
+
+Primitive Data Types
+These are the basic building blocks of data in programming. They are immutable, meaning their values cannot be changed.
+
+
+let name = "John";
+console.log(name, typeof(name)); // Output: John string
+Number: Represents numeric values (both integers and floating-point numbers).
+
+
+let age = 25;
+let price = 19.99;
+console.log(age, typeof(age));   // Output: 25 number
+console.log(price, typeof(price)); // Output: 19.99 number
+Boolean: Represents true or false.
+
+
+let isLoggedIn = true;
+console.log(isLoggedIn, typeof(isLoggedIn)); // Output: true boolean
+Undefined: A variable that has been declared but not assigned a value.
+
+
+let notAssigned;
+console.log(notAssigned, typeof(notAssigned)); // Output: undefined undefined
+Null: Represents an intentional absence of value.
+
+
+let emptyValue = null;
+console.log(emptyValue, typeof(emptyValue)); // Output: null object
+BigInt: Used for very large integers.
+
+
+let bigNumber = 123456789012345678901234567890n;
+console.log(bigNumber, typeof(bigNumber)); // Output: 1234567890123456789012
+
+code 
+
+  var d = 10; // global 
+
+ let b = 20; // script
+ const c = 30 // script
+
+ function demo(){
+     var username = "Just Reference";
+     let city = "hyderabad"
+     const salary = 1000000
+     console.log(username, city, salary)
+ }
+ demo()
+
+ {           
+     let p = 1000;
+     const   q = 2000
+     console.log(p,q)
+ }
+
+
+ let str1 = "double quotes"
+ console.log(str1, typeof(str1));
+
+ let str2 = 'single quote'
+ console.log(str2, typeof(str2))
+
+ let str3 = `templete literals`
+ console.log(str3, typeof(str3))
+
+ let bool1 = true;
+ console.log(bool1, typeof(bool1))
+
+ let bool2 = false
+ console.log(bool2, typeof(bool2))
+
+ let num1 = 10;
+ console.log(num1, typeof(num1))
+
+ let num2 = 12.2334
+ console.log(num2, typeof(num2))
+
+ let num3 = 10e3
+ console.log(num3, typeof(num3))
+
+ let a ;
+ console.log(a, typeof(a))
+
+let x = null
+console.log(x, typeof(x))
+ 
+ Output is 
+
+ Just Reference hyderabad 1000000
+app.js:17 1000 2000
+app.js:22 double quotes string
+app.js:25 single quote string
+app.js:28 templete literals string
+app.js:31 true 'boolean'
+app.js:34 false 'boolean'
+app.js:37 10 'number'
+app.js:40 12.2334 'number'
+app.js:43 10000 'number'
+app.js:46 undefined 'undefined'
+app.js:49 null 'object'

@@ -1,0 +1,73 @@
+Function in JavaScript
+Functions are fundamental building blocks in JavaScript. They allow for reusable blocks of code to perform specific tasks.
+
+Types of Functions:
+Named Function:
+
+A function declared with a name, used to call it later.
+Example:
+
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+console.log(greet('Alice'));
+
+Anonymous Function:
+
+A function without a name, often assigned to a variable or used as an argument.
+Example:
+
+
+const greet = function(name) {
+    return `Hello, ${name}!`;
+};
+console.log(greet('Bob'));
+
+Function Expression:
+
+A function assigned to a variable. It can be named or anonymous.
+Example:
+
+
+const add = function(a, b) {
+    return a + b;
+};
+console.log(add(2, 3));
+
+IIFE (Immediately Invoked Function Expression):
+
+A function that runs immediately after being defined.
+
+Example:
+
+
+(function() {
+    console.log('This function runs immediately!');
+})();
+
+Arrow Function:
+
+A concise way to write functions introduced in ES6. They do not have their own this context.
+
+Example:
+
+
+const greet = (name) => `Hello, ${name}!`;
+console.log(greet('Charlie'));
+
+Current JavaScript Version:
+
+The current version of JavaScript is ES16 (ECMAScript 2023).
+
+What is ECMAScript?
+ECMAScript (ES) is a scripting standard developed by the European Computer Manufacturers Association (ECMA).
+
+JavaScript Evolution:
+The stabilization and major revolution of JavaScript started with ES6 (ECMAScript 2015).
+ES6 introduced many modern features such as:
+Let and const
+Arrow functions
+Classes
+Template literals
+Promises
+Modules
