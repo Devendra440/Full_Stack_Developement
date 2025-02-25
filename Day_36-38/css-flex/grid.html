@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            display: grid;
+            height: 100vh;
+            grid-template-rows: 10% 80% 10%;
+            grid-template-columns: 20% 60% 20%;
+
+        }
+        .header{
+            background-color: grey;
+            grid-column: 1/4;
+            grid-template-columns: 1/2;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .leftmenu {
+            background-color: aqua;
+            grid-column: 1/2;
+            grid-row: 2/3;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+        }
+        .main {
+            background-color: brown;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+        }
+        .rightmenu {
+            background-color: aqua;
+            grid-column: 3/4;
+            grid-row: 2/3;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+        }
+        .footer {
+            background-color: grey;
+            grid-column: 1/4;
+            grid-row: 3/4;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+        }
+
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <section class="header">Header</section>
+        <section class="leftmenu">LeftMenu</section>
+        <section class="main">Main</section>
+        <section class="rightmenu">RightMenu</section>
+        <section class="footer">Footer</section>
+    </section>
+</body>
+</html>
