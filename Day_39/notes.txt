@@ -1,0 +1,24 @@
+spring boot is an open source  framework for java which is built on top of spring frame work
+with the help of spring boot we can create stand alone spring applications that can be started using java -jar
+
+MVC- Model View Controller
+
+springboot mvc architecture  follows the mvc application pattern to develop web application.
+
+mvc
+m-model/data
+v-view/presentation
+c-controller/business logic
+
+Ecart Website
+1. Aws create a bucket
+2.MYsql database
+3.springboot
+4.Reactjs
+
+https://dev.mysql.com/downloads/file/?id=536357 -sql downloads
+
+https://spring.io/tools - springboot
+
+click  file ---> new ---> new spring boot project --> name,naven 
+dependics 
